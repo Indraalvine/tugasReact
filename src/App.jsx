@@ -1,5 +1,5 @@
 import Home from "./Pages/Home";
-import Books from "./Pages/Books";
+import Products from "./Pages/Products";
 import Contact from "./Pages/Contact";
 import { Routes, Route } from "react-router-dom";
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/books" element={<Books />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
