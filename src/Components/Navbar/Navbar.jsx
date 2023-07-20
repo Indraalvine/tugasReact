@@ -5,7 +5,7 @@ import NavList from "./NavList";
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between bg-sky-400 mb-5 shadow-sm z-10 sticky top-0">
+      <div className="flex justify-between pb-5 shadow-sm z-10 sticky top-0 bg-black opacity-90">
         <NavbarTitle />
         <NavList />
       </div>

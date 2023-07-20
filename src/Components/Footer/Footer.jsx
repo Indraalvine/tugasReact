@@ -4,7 +4,7 @@ import FooterService from "./FooterService";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-7 mt-10 bottom-0 bg-sky-400">
+      <div className="flex flex-wrap justify-around items-center gap-7 pt-10 pb-5 bottom-0 bg-black">
         <FooterService />
       </div>
     </>
